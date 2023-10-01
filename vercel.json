@@ -5,15 +5,13 @@
     {
       "src": "dist/src/index.js",
       "use": "@vercel/node"
-    }
+    },
+    { "src": "public/*.html", "use": "@vercel/static" }
   ],
   "routes": [
     {
       "src": "/.*",
       "dest": "/dist/src/index.js"
-    }
-  ],
-  "static": {
-    "directory": "public"
-  }
+    }    
+  ]
 }
