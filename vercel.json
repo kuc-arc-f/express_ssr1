@@ -12,6 +12,10 @@
     {
       "src": "/.*",
       "dest": "/dist/src/index.js"
-    }    
+    },
+    {
+      "src": "/js/.*",
+      "dest": "/public/*js"
+    }      
   ]
 }
