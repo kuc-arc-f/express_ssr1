@@ -1,0 +1,16 @@
+
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/src",
+    "target": "es5",
+    "sourceMap": false,
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/test/*", "node_modules"]
+}
