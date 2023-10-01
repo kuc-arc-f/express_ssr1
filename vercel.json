@@ -12,5 +12,8 @@
       "src": "/.*",
       "dest": "/dist/src/index.js"
     }
-  ]
+  ],
+  "static": {
+    "directory": "public"
+  }
 }
